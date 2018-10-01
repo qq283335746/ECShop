@@ -1,0 +1,63 @@
+﻿body{
+  color: #404040;font-family: Microsoft Yahei,Tahoma,SimSun,Arial,Helvetica,sans-serif;font-size: 12px;font-style: normal;font-variant: normal;line-height: 150%;
+}
+
+/*Public begin*/
+
+.w {
+  margin:0 auto; width:98%;
+}
+
+.accordion-body a{ 
+  display:block; margin-bottom:6px;
+}
+
+.txtl {
+  border: 1px solid #BBBBBB;height: 16px;padding: 4px 3px;width: 600px;
+}
+
+.txt {
+  border: 1px solid #BBBBBB;height: 16px;padding: 4px 3px;width: 200px;
+}
+
+a{
+  text-decoration:none; color:#008080;
+}
+a:hover{
+ color:#808000;
+}
+
+.hover{ 
+  color:#808000;
+}
+.horizontal li {
+ float:left; margin-left:10px; height:25px; line-height:25px;
+}
+
+.row {
+ height:100% auto; 
+}
+.row .rl {
+ text-align:right; width:100px;
+}
+.row .txt{
+ border: 1px solid #BBBBBB;height: 16px;padding: 4px 3px;width: 200px; background:#FFFFFF;
+}
+
+#north a {
+ color:#404040
+}
+#toolbar{
+ padding:5px 0 4px 5px;
+}
+#toolbar .txt{
+  height:12px;
+}
+.siblingsnode{ 
+ background:url('Images/siblingsnode.png') no-repeat center center;display: inline-block; width:28px; height:28px;
+}
+.chilrennode{ 
+ background:url('Images/childrennode.png') no-repeat center center;display: inline-block; width:28px; height:28px;
+}
+
+/*Public end*/

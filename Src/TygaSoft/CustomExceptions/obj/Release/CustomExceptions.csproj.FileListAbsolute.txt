@@ -1,0 +1,6 @@
+D:\Visual Studio 2010 Workspace\天涯孤岸商城\TygaSoft\CustomExceptions\bin\Release\TygaSoft.CustomExceptions.dll
+D:\Visual Studio 2010 Workspace\天涯孤岸商城\TygaSoft\CustomExceptions\bin\Release\TygaSoft.CustomExceptions.pdb
+D:\Visual Studio 2010 Workspace\天涯孤岸商城\TygaSoft\CustomExceptions\bin\Release\log4net.dll
+D:\Visual Studio 2010 Workspace\天涯孤岸商城\TygaSoft\CustomExceptions\obj\Release\CustomExceptions.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2010 Workspace\天涯孤岸商城\TygaSoft\CustomExceptions\obj\Release\TygaSoft.CustomExceptions.dll
+D:\Visual Studio 2010 Workspace\天涯孤岸商城\TygaSoft\CustomExceptions\obj\Release\TygaSoft.CustomExceptions.pdb

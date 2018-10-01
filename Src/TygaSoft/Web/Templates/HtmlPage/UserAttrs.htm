@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>  
+    <script src="/Jquery/ui/jquery.ui.core.js" type="text/javascript"></script>
+    <script src="/Jquery/ui/jquery.ui.widget.js" type="text/javascript"></script>
+    <script src="/Jquery/ui/jquery.ui.mouse.js" type="text/javascript"></script>
+    <script src="/Jquery/ui/jquery.ui.sortable.js" type="text/javascript"></script>
+</head>
+<body>
+<ul id="cAttrH">
+<li class="fl"><a href="javascript:;" id="cAttrClose" onclick="OnAttrClose('cAttrClose')">添加自定义属性</a></li>
+<li class="fl ml10" style="display:none;"><a href="javascript:$('#dlgAttrs').window('open');">选择模板</a></li>
+<li class="fl ml10" style="display:none;"><a href="javascript:;" id="cAttrSave" onclick="OnAttrSave()">存为模板</a></li>
+</ul>
+<div class="clr"></div>
+<ul id="cAttr" style="display:none;">
+    <li class="ui-state-default"><span></span><input type="text" class="txt" />：<input type="text" class="txt" /></li>
+    <li class="ui-state-default"><span></span><input type="text" class="txt" />：<input type="text" class="txt" /></li>
+    <li class="ui-state-default"><span></span><input type="text" class="txt" />：<input type="text" class="txt" /></li>
+    <li class="ui-state-default"><span></span><input type="text" class="txt" />：<input type="text" class="txt" /></li>
+    <li class="ui-state-default"><span></span><input type="text" class="txt" />：<input type="text" class="txt" /></li>
+    <li class="ui-state-default"><span></span><input type="text" class="txt" />：<input type="text" class="txt" /></li>
+    <li class="ui-state-default"><span></span><input type="text" class="txt" />：<input type="text" class="txt" /></li>
+    <li class="ui-state-default"><span></span><input type="text" class="txt" />：<input type="text" class="txt" /></li>
+    <li class="ui-state-default"><span></span><input type="text" class="txt" />：<input type="text" class="txt" /></li>
+    <li class="ui-state-default"><span></span><input type="text" class="txt" />：<input type="text" class="txt" /></li>
+    <li class="ui-state-default"><span></span><input type="text" class="txt" />：<input type="text" class="txt" /></li>
+    <li class="ui-state-default"><span></span><input type="text" class="txt" />：<input type="text" class="txt" /></li>
+    <li class="ui-state-default"><span></span><input type="text" class="txt" />：<input type="text" class="txt" /></li>
+    <li class="ui-state-default"><span></span><input type="text" class="txt" />：<input type="text" class="txt" /></li>
+</ul>
+<div id="dlgSaveAttrs">
+  <form id="addUserAttr" action="">
+    <div class="p10">
+        模板名称：
+        <input type="text" id="txtAttrName" class="easyui-validatebox" data-options="required:true,missingMessage:'必填项'" />
+        <input type="hidden" id="hAttrValue" value="" />
+    </div>
+  </form>
+</div>
+<div id="dlgAttrs"></div>
+
+<script type="text/javascript">
+    $(function () {
+        $("#cAttr").sortable();
+        $("#cAttr").disableSelection();
+
+        //保存自定义属性弹出层
+        $('#dlgSaveAttrs').dialog({
+            title: '保存自定义属性模板',
+            width: 400,
+            height: 130,
+            closed: true,
+            modal: true,
+            buttons: [{
+                text: '保存',
+                handler: function () {
+                    OnDlgSave();
+                }
+            }, {
+                text: '取消',
+                handler: function () {
+                    $('#dlgSaveAttrs').window('close');
+                }
+            }]
+        });
+        //自定义属性列表弹出层
+        $('#dlgAttrs').dialog({
+            title: '模板列表',
+            width: 400,
+            height: 350,
+            closed: true,
+            href: '/Templates/HtmlPage/ListUserAttr.htm',
+            modal: true,
+            buttons: [{
+                text: '确定',
+                handler: function () {
+                    var cbl = $('#listUserAttr').datagrid("getSelections");
+                    if (cbl.length > 0) {
+                        var attrAppend = cbl[0].AttrValue;
+                        if (attrAppend.length > 0) {
+                            var liItems = $("#cAttr>li");
+                            var attrArr = attrAppend.split("|");
+                            var attrArrLen = attrArr.length;
+                            for (var k = 0; k < attrArrLen; k++) {
+                                var keyvalue = attrArr[k].split("&");
+                                var inputItems = liItems.eq(k).find("input");
+                                inputItems.eq(0).val(keyvalue[0]);
+                                inputItems.eq(1).val(keyvalue[1]);
+                            }
+                        }
+                    }
+                    $('#dlgAttrs').window('close');
+                }
+            }, {
+                text: '取消',
+                handler: function () {
+                    $('#dlgAttrs').window('close');
+                }
+            }]
+        });
+
+ })
+
+    function OnAttrClose(h) {
+        var obj = document.getElementById(h);
+        var $_obj = $(obj);
+        var cAttr = $("#cAttr");
+        if ($_obj.text().indexOf("添加") > -1) {
+            $_obj.text("取消自定义属性");
+            cAttr.show();
+            $_obj.parent().siblings().show();
+        }
+        else {
+            $_obj.text("添加自定义属性");
+            cAttr.hide();
+            $_obj.parent().siblings().hide();
+            cAttr.find("input").val("");
+        }
+    }
+
+    function OnAttrSave() {
+        var cAttrAppend = GetAttrs();
+        if (cAttrAppend.length == 0) {
+            $.messager.alert('错误提示', '自定义属性值为空，请检查', 'error');
+            return false;
+        }
+        $("[id$=hCustomAttrs]").val(cAttrAppend);
+        $('#dlgSaveAttrs').window('open');
+    }
+
+    function OnDlgSave() {
+        var cAttrAppend = GetAttrs();
+        if (cAttrAppend.length == 0) {
+            $.messager.alert('错误提示', '自定义属性值为空，请检查', 'error');
+            return false;
+        }
+        var isValid = $('#addUserAttr').form('validate');
+        if (isValid) {
+            $.ajax({
+                type: "POST",
+                async: false,
+                url: "/ScriptServices/UsersService.asmx/InsertUserCustomAttr",
+                contentType: "application/json; charset=utf-8",
+                data: "{attrName: '" + $("#txtAttrName").val() + "', attrValue: '" + cAttrAppend + "'}",
+                success: function (data) {
+                    var msg = data.d;
+                    $.messager.alert('温馨提醒', msg, 'info');
+                    if (msg.indexOf("成功") > -1) {
+                        $('#dlgSaveAttrs').window('close');
+                    }
+                }
+            })
+        }
+    }
+
+    function GetAttrs() {
+        var cAttrAppend = "";
+        $("#cAttr>li").each(function () {
+            var keyvalue = "";
+            var hasFull = true;
+            var inputs = $(this).find("input");
+            inputs.each(function (index, item) {
+                if ($.trim($(item).val()).length > 0) {
+                    if (index == 0) {
+                        keyvalue += $.trim($(item).val()) + "&";
+                    }
+                    else if (index == 1) {
+                        keyvalue += $.trim($(item).val());
+                    }
+                }
+                else {
+                    hasFull = false;
+                }
+            })
+            if (hasFull) {
+                cAttrAppend += keyvalue + "|";
+            }
+        })
+
+        return cAttrAppend;
+    }
+
+    function SetAttrs(h) {
+        if (h == undefined || h.length == 0) {
+            $("#cAttr").hide();
+            return;
+        }
+        else {
+            $("#cAttr").show();
+        }
+        var cAttrLi = $("#cAttr>li");
+        var cAttrLiLen = cAttrLi.length;
+        var cArrItems = h.split('|');
+        var cArrItemsLen = cArrItems.length;
+        for (var i = 0; i < cArrItemsLen; i++) {
+            var items = cArrItems[i].split('&');
+            var inputs = cAttrLi.eq(i).find("input");
+            inputs.eq(0).val(items[0]);
+            inputs.eq(1).val(items[1]);
+        }
+    }
+
+</script>
+
+</body>
+</html>

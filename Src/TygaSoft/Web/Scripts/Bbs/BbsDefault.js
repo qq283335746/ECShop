@@ -1,0 +1,5 @@
+﻿BbsDefault = {
+    init: function () {
+        
+    }
+}

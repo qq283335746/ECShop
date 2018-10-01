@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/ScriptServices
+END
+AdminService.asmx
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/ScriptServices/AdminService.asmx
+END
+KeywordService.asmx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/ScriptServices/KeywordService.asmx.cs
+END
+UploadService.asmx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/ScriptServices/UploadService.asmx.cs
+END
+SharesService.asmx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/ScriptServices/SharesService.asmx.cs
+END
+BbsService.asmx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/ScriptServices/BbsService.asmx.cs
+END
+AdminService.asmx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/ScriptServices/AdminService.asmx.cs
+END
+UsersService.asmx
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/ScriptServices/UsersService.asmx
+END
+KeywordService.asmx
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/ScriptServices/KeywordService.asmx
+END
+UploadService.asmx
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/ScriptServices/UploadService.asmx
+END
+SharesService.asmx
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/ScriptServices/SharesService.asmx
+END
+UsersService.asmx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/ScriptServices/UsersService.asmx.cs
+END
+BbsService.asmx
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/ScriptServices/BbsService.asmx
+END

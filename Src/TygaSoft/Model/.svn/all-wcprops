@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1800/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Model
+END
+WebSitemapInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Model/WebSitemapInfo.cs
+END
+BbsContentTypeInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Model/BbsContentTypeInfo.cs
+END
+UserCustomAttrInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Model/UserCustomAttrInfo.cs
+END
+SystemProfileInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Model/SystemProfileInfo.cs
+END
+CartItemInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Model/CartItemInfo.cs
+END
+MenuNavInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Model/MenuNavInfo.cs
+END
+SearchKeywordInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Model/SearchKeywordInfo.cs
+END
+OrderInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Model/OrderInfo.cs
+END
+ContentTypeInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Model/ContentTypeInfo.cs
+END
+CategoryInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Model/CategoryInfo.cs
+END
+ProvinceCityInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Model/ProvinceCityInfo.cs
+END
+Model.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Model/Model.csproj
+END
+ProductInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Model/ProductInfo.cs
+END
+MenuItemInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Model/MenuItemInfo.cs
+END
+UserAddressInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Model/UserAddressInfo.cs
+END
+Model.csproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Model/Model.csproj.user
+END
+BbsContentDetailIInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Model/BbsContentDetailIInfo.cs
+END
+ContentDetailInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Model/ContentDetailInfo.cs
+END
+HandlerUserProfileInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Model/HandlerUserProfileInfo.cs
+END

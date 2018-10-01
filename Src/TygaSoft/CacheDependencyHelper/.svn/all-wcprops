@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1800/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/CacheDependencyHelper
+END
+ICacheDependency.cs
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/CacheDependencyHelper/ICacheDependency.cs
+END
+CacheDependencyHelper.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 194
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/CacheDependencyHelper/CacheDependencyHelper.csproj
+END
+Category.cs
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/CacheDependencyHelper/Category.cs
+END
+ProvinceCity.cs
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/CacheDependencyHelper/ProvinceCity.cs
+END
+SiteContent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/CacheDependencyHelper/SiteContent.cs
+END
+DependencyAccess.cs
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/CacheDependencyHelper/DependencyAccess.cs
+END
+Product.cs
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/CacheDependencyHelper/Product.cs
+END
+MsSqlCacheDependency.cs
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/CacheDependencyHelper/MsSqlCacheDependency.cs
+END
+DependencyFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 186
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/CacheDependencyHelper/DependencyFactory.cs
+END
+CacheDependencyHelper.csproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 199
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/CacheDependencyHelper/CacheDependencyHelper.csproj.user
+END
+SearchKeyword.cs
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/CacheDependencyHelper/SearchKeyword.cs
+END

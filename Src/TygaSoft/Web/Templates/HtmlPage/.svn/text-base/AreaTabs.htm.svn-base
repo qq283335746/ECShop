@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div id="areaTabs" class="easyui-tabs" style="width:300px;height:auto;">
+            <div title="常用" data-options="href:'/Handlers/HandlerArea.ashx?areaName=highUse',cache:true" style="padding:10px;"></div>
+            <div title="省" data-options="href:'/Handlers/HandlerArea.ashx?areaName=p',cache:true" style="padding:10px;"></div>
+            <div title="市" style="padding:10px"></div>
+            <div title="区县" style="padding:10px;"></div>
+            <input type="hidden" name="hArea" value="" />
+            <input type="hidden" name="hArea" value="" />
+            <input type="hidden" name="hArea" value="" />
+            <input type="hidden" name="hArea" value="" />
+        </div>
+    <script type="text/javascript">
+        var dataUrl = "/Handlers/HandlerArea.ashx";
+        $(function () {
+            setInterval(setAreaClass, 150);
+        })
+        function onHighUseClick(pN, cN, p, c) {
+            var hAreas = $("#areaTabs").find("[name=hArea]");
+            hAreas.eq(0).val(cN);
+            hAreas.eq(1).val(pN);
+            hAreas.eq(2).val(cN);
+            var url = dataUrl + "?areaName=c&pId=" + p + "";
+            $('#areaTabs').tabs('select', 2);
+            var tab = $('#areaTabs').tabs('getSelected');
+            tab.panel('refresh', url);
+            url = dataUrl + "?areaName=v&cId=" + c + "";
+            $('#areaTabs').tabs('select', 3);
+            var tab = $('#areaTabs').tabs('getSelected');
+            tab.panel('refresh', url);
+        }
+        function onProvinceClick(v, title) {
+            var hAreas = $("#areaTabs").find("[name=hArea]");
+            hAreas.eq(1).val(title);
+            hAreas.eq(2).val("");
+            hAreas.eq(3).val("");
+            var url = dataUrl + "?areaName=c&pId=" + v + "";
+            $('#areaTabs').tabs('select', 2);
+            var tab = $('#areaTabs').tabs('getSelected');
+            tab.panel('refresh', url);
+        }
+        function onCityClick(v, title) {
+            var hAreas = $("#areaTabs").find("[name=hArea]");
+            hAreas.eq(2).val(title);
+            hAreas.eq(3).val("");
+            hAreas.eq(0).val(title);
+            var url = dataUrl + "?areaName=v&cId=" + v + "";
+            $('#areaTabs').tabs('select', 3);
+            var tab = $('#areaTabs').tabs('getSelected');
+            tab.panel('refresh', url);
+        }
+        function onVillageClick(v, title) {
+            var hAreas = $("#areaTabs").find("[name=hArea]");
+            hAreas.eq(3).val(title);
+            $("[id$=txtProvinceCity]").val(hAreas.eq(1).val() + "-" + hAreas.eq(2).val() + "-" + title);
+            $('#dlgArea').window('close');
+        }
+
+        function setAreaClass() {
+            var hAreas = $("#areaTabs").find("[name=hArea]");
+            var tab = $('#areaTabs').tabs('getSelected');
+            var index = $('#areaTabs').tabs('getTabIndex', tab);
+            var aList = tab.find("a");
+            if (aList.length > 0) {
+                aList.each(function () {
+                    if ($.trim($(this).text()) == hAreas.eq(index).val()) {
+                        $(this).addClass("current");
+                    }
+                    else if ($(this).hasClass("current")) {
+                        $(this).removeClass("current");
+                    }
+                })
+            }
+        }
+    </script>
+</body>
+</html>

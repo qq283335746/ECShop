@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1800/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/SqlServerDAL
+END
+Order.cs
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/SqlServerDAL/Order.cs
+END
+ContentType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/SqlServerDAL/ContentType.cs
+END
+Category.cs
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/SqlServerDAL/Category.cs
+END
+ContentDetail.cs
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/SqlServerDAL/ContentDetail.cs
+END
+ProvinceCity.cs
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/SqlServerDAL/ProvinceCity.cs
+END
+SqlServerDAL.csproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/SqlServerDAL/SqlServerDAL.csproj.user
+END
+Product.cs
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1800/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/SqlServerDAL/Product.cs
+END
+SqlServerDAL.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/SqlServerDAL/SqlServerDAL.csproj
+END
+BbsContentType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/SqlServerDAL/BbsContentType.cs
+END
+BbsContentDetail.cs
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/SqlServerDAL/BbsContentDetail.cs
+END
+NumberID.cs
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/SqlServerDAL/NumberID.cs
+END
+SystemProfile.cs
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/SqlServerDAL/SystemProfile.cs
+END
+SearchKeyword.cs
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/SqlServerDAL/SearchKeyword.cs
+END

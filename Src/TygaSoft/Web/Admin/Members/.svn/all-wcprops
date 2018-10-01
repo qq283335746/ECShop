@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members
+END
+AddRoleUser.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/AddRoleUser.aspx
+END
+AddUserRole.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/AddUserRole.aspx
+END
+AddRole.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/AddRole.aspx
+END
+AddUserRole.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/AddUserRole.aspx.designer.cs
+END
+AddRoleUser.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/AddRoleUser.aspx.designer.cs
+END
+UpdatePsw.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/UpdatePsw.aspx
+END
+AddUserRole.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/AddUserRole.aspx.cs
+END
+AddRoleUser.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/AddRoleUser.aspx.cs
+END
+AddRole.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 186
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/AddRole.aspx.designer.cs
+END
+AddRole.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/AddRole.aspx.cs
+END
+UpdatePsw.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/UpdatePsw.aspx.designer.cs
+END
+ListRoles.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/ListRoles.aspx
+END
+UpdatePsw.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/UpdatePsw.aspx.cs
+END
+ListRoles.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/ListRoles.aspx.designer.cs
+END
+ListRoles.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/ListRoles.aspx.cs
+END
+AddUser.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/AddUser.aspx
+END
+AddUser.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 186
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/AddUser.aspx.designer.cs
+END
+AddUser.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/AddUser.aspx.cs
+END
+ListUsers.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/ListUsers.aspx
+END
+ListUsers.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/ListUsers.aspx.designer.cs
+END
+ListUsers.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E8%BD%AF%E4%BB%B6/!svn/ver/1799/%E5%A4%A9%E6%B6%AF%E5%AD%A4%E5%B2%B8%E5%95%86%E5%9F%8E/trunk/TygaSoft/Web/Admin/Members/ListUsers.aspx.cs
+END
