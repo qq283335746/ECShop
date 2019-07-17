@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datas>
+  <Data Id="1">
+    <Add><![CDATA[<link href="~/Jquery/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<link href="~/Styles/Default.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<link href="~/Styles/CSkin.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<link href="~/Styles/AspnetPage.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<script type="text/javascript" src="~/Jquery/jquery-1.10.2.min.js"></script>]]></Add>
+  </Data>
+  <Data Id="2">
+    <Add><![CDATA[<link href="~/Jquery/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<link href="~/Styles/Default.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<link href="~/Styles/CSkin.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<link href="~/Styles/Product.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<link href="~/Styles/AspnetPage.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<script type="text/javascript" src="~/Jquery/jquery-1.10.2.min.js"></script>]]></Add>
+    <Add><![CDATA[<script type="text/javascript" src="~/Scripts/Product.js"></script>]]></Add>
+    <Add><![CDATA[<script type="text/javascript" src="~/Scripts/BaseHover.js"></script>]]></Add>
+  </Data>
+  <Data Id="3">
+    <Add><![CDATA[<link href="~/Styles/jeasyui.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<link href="~/Jquery/plugins/jeasyui/themes/default/easyui.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<link href="~/Jquery/plugins/jeasyui/themes/icon.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<link href="~/Styles/Default.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<script src="~/Jquery/jquery-1.10.2.min.js" type="text/javascript"></script>]]></Add>
+    <Add><![CDATA[<script src="~/Jquery/plugins/jeasyui/jquery.easyui.min.js" type="text/javascript"></script>]]></Add>
+  </Data>
+  <Data Id="4">
+    <Add><![CDATA[<link href="~/Jquery/plugins/jeasyui/themes/default/easyui.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<link href="~/Jquery/plugins/jeasyui/themes/icon.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<link href="~/Styles/Default.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<link href="~/Styles/jeasyui.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<script src="~/Jquery/jquery-1.10.2.min.js" type="text/javascript"></script>]]></Add>
+    <Add><![CDATA[<script src="~/Jquery/plugins/jeasyui/jquery.easyui.min.js" type="text/javascript"></script>]]></Add>
+  </Data>
+  <Data Id="5">
+    <Add><![CDATA[<link href="~/Jquery/plugins/jeasyui/themes/default/easyui.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<link href="~/Jquery/plugins/jeasyui/themes/icon.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<link href="~/Styles/Default.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<link href="~/Styles/jeasyui.css" rel="stylesheet" type="text/css" />]]></Add>
+    <Add><![CDATA[<script src="~/Jquery/jquery-1.10.2.min.js" type="text/javascript"></script>]]></Add>
+    <Add><![CDATA[<script src="~/Jquery/plugins/jeasyui/jquery.easyui.min.js" type="text/javascript"></script>]]></Add>
+  </Data>
+</Datas>

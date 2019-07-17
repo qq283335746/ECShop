@@ -1,4 +1,0 @@
-D:\Visual Studio 2010 Workspace\天涯孤岸商城\TygaSoft\CacheDependencyHelper\bin\Release\TygaSoft.CacheDependencyHelper.dll
-D:\Visual Studio 2010 Workspace\天涯孤岸商城\TygaSoft\CacheDependencyHelper\bin\Release\TygaSoft.CacheDependencyHelper.pdb
-D:\Visual Studio 2010 Workspace\天涯孤岸商城\TygaSoft\CacheDependencyHelper\obj\Release\TygaSoft.CacheDependencyHelper.dll
-D:\Visual Studio 2010 Workspace\天涯孤岸商城\TygaSoft\CacheDependencyHelper\obj\Release\TygaSoft.CacheDependencyHelper.pdb

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rewriteRules>
+  <if url="^(.*)/(\?.+)?$">
+    <rewrite exists="$1/Default.aspx" to="$1/Default.aspx$2" />
+  </if>
+  <rewrite url="^/$" to="~/Default.aspx" processing="stop" />
+  <rewrite url="^/tyga\.html$" to="~/Default.aspx" processing="stop" />
+  <rewrite url="^/t\.html$" to="~/Login.aspx" processing="stop" />
+  <rewrite url="^/t\.html\?(.*)" to="~/Login.aspx?$1" processing="stop" />
+  <rewrite url="^/y\.html$" to="~/Register.aspx" processing="stop" />
+  <rewrite url="^/ty\.html$" to="~/Login_Admin.aspx" processing="stop" />
+  <if url="^/s/">
+    <rewrite url="^/s/t\.html$" to="~/Shares/ListDiamond.aspx" processing="stop" />
+    <rewrite url="^/s/y\.html$" to="~/Shares/ListJadeite.aspx" processing="stop" />
+    <rewrite url="^/s/g\.html$" to="~/Shares/SearchProduct.aspx" processing="stop" />
+    <rewrite url="^/s/g/t\.html\?(.*)" to="~/Shares/SearchProduct.aspx?$1" processing="stop" />
+    <rewrite url="^/s/a\.html\?(.*)" to="~/Shares/ShowProduct.aspx?$1" processing="stop" />
+    <rewrite url="^/s/ty/t\.html$" to="~/Shares/ShoppingCart/AddCartSucceed.aspx" processing="stop" />
+    <rewrite url="^/s/ty/y\.html$" to="~/Shares/ShoppingCart/ListCart.aspx" processing="stop" />
+  </if>
+  <if url="^/u/">
+    <rewrite url="^/u/t\.html$" to="~/Users/AddAddress.aspx" processing="stop" />
+    <rewrite url="^/u/t\.html\?(.*)" to="~/Users/AddAddress.aspx?$1" processing="stop" />
+    <rewrite url="^/u/tyga\.html$" to="~/Users/Default.aspx" processing="stop" />
+    <rewrite url="^/u/y\.html$" to="~/Users/ListAddress.aspx" processing="stop" />
+    <rewrite url="^/u/tt/t\.html$" to="~/Users/Order/AddOrder.aspx" processing="stop" />
+    <rewrite url="^/u/tt/y\.html\?(.*)" to="~/Users/Order/AddOrderSucceed.aspx?$1" processing="stop" />
+    <rewrite url="^/u/tt/g\.html$" to="~/Users/Order/ListOrder.aspx" processing="stop" />
+    <rewrite url="^/u/tt/a\.html\?(.*)" to="~/Users/Order/PayOrder.aspx?$1" processing="stop" />
+    <rewrite url="^/u/tt/ty\.html\?(.*)" to="~/Users/Order/ShowOrder.aspx?$1" processing="stop" />
+  </if>
+  <if url="^/a/">
+    <rewrite url="^/a/tyga\.html$" to="~/Admin/Default.aspx" processing="stop" />
+    <rewrite url="^/a/t\.html$" to="~/Admin/Category/AddCategory.aspx" processing="stop" />
+    <rewrite url="^/a/t\.html\?(.*)" to="~/Admin/Category/AddCategory.aspx?$1" processing="stop" />
+    <rewrite url="^/a/y\.html$" to="~/Admin/Category/ListCategory.aspx" processing="stop" />
+    <rewrite url="^/a/g\.html$" to="~/Admin/Members/AddRole.aspx" processing="stop" />
+    <rewrite url="^/a/a\.html\?(.*)" to="~/Admin/Members/AddRoleUser.aspx?$1" processing="stop" />
+    <rewrite url="^/a/ty\.html$" to="~/Admin/Members/AddUser.aspx" processing="stop" />
+    <rewrite url="^/a/ty\.html\?(.*)" to="~/Admin/Members/AddUser.aspx?$1" processing="stop" />
+    <rewrite url="^/a/tg\.html\?(.*)" to="~/Admin/Members/AddUserRole.aspx?$1" processing="stop" />
+    <rewrite url="^/a/ta\.html$" to="~/Admin/Members/ListRoles.aspx" processing="stop" />
+    <rewrite url="^/a/yt\.html$" to="~/Admin/Members/ListUsers.aspx" processing="stop" />
+    <rewrite url="^/a/yy\.html$" to="~/Admin/Members/UpdatePsw.aspx" processing="stop" />
+    <rewrite url="^/a/yg\.html$" to="~/Admin/Order/ListOrder.aspx" processing="stop" />
+    <rewrite url="^/a/ya\.html$" to="~/Admin/Product/AddProduct.aspx" processing="stop" />
+    <rewrite url="^/a/ya\.html\?(.*)" to="~/Admin/Product/AddProduct.aspx?$1" processing="stop" />
+    <rewrite url="^/a/gt\.html$" to="~/Admin/Product/ListProduct.aspx" processing="stop" />
+    <rewrite url="^/a/gy\.html$" to="~/Admin/SystemSet/AddSystemProfile.aspx" processing="stop" />
+    <rewrite url="^/a/gy\.html\?(.*)" to="~/Admin/SystemSet/AddSystemProfile.aspx?$1" processing="stop" />
+    <rewrite url="^/a/gg\.html$" to="~/Admin/SystemSet/Default.aspx" processing="stop" />
+    <rewrite url="^/a/ga\.html$" to="~/Admin/SystemSet/ListSystemProfile.aspx" processing="stop" />
+    <rewrite url="^/a/at\.html$" to="~/Admin/UserProfile/ListProfile.aspx" processing="stop" />
+    <rewrite url="^/a/ay\.html$" to="~/Admin/AboutSite/ListSearchKeyword.aspx" processing="stop" />
+    <rewrite url="^/a/ag\.html\?(.*)" to="~/Admin/AboutSite/AddSearchKeyword.aspx?$1" processing="stop" />
+  </if>
+
+</rewriteRules>

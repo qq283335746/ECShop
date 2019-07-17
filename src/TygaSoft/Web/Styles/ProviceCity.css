@@ -1,0 +1,88 @@
+﻿/*省市区样式*/
+li {
+display: list-item;
+text-align: -webkit-match-parent;
+}
+.area-tab {
+background-color: #fff;
+border: 1px solid #e5e5e5;
+position: absolute;
+width: 270px;
+z-index: 100;
+}
+.area-tab {
+position: absolute;
+z-index: 1000;
+}
+.area-tab .h {
+background-color: #fff;
+border-bottom: 1px solid #e5e5e5;
+height: 32px;
+}
+.area-tab .h .s-tab-t {
+background-color: #f6f6f6;
+border-right: 1px solid #e5e5e5;
+cursor: pointer;
+float: left;
+list-style: none outside none;
+height: 32px;
+}
+.alp-close  {
+width: 16px;
+height: 16px;
+cursor: pointer;
+background-position: -74px -96px;
+}
+.area-tab .h .selected {
+background-color: #fff;
+color: #06c;
+font-weight: bold;
+}
+.area-tab .h .hover {
+background-color: #fff;
+color: #06c;
+font-weight: bold;
+}
+.area-tab .h .inner {
+display: inline-block;
+font-size: 14px;
+height: 32px;
+line-height: 32px;
+overflow: hidden;
+padding: 0 20px;
+text-align: center;
+}
+.area-tab .s-tab-b {
+padding: 10px 0;
+z-index: 100;
+background-color: #fff;
+}
+.area-tab .s-tab-b li {
+display: inline-block;
+float: left;
+}
+.area-tab .s-tab-b .panel-item {
+color: #404040;
+cursor: pointer;
+display: inline-block;
+font-size: 12px;
+height: 24px;
+line-height: 24px;
+margin: 0 0 0 5px;
+padding: 0 6px;
+text-decoration: none;
+white-space: nowrap;
+}
+        
+.area-tab .s-tab-b a:hover {
+background-color: #9CD2FF;
+}
+        
+.area-tab .s-tab-b .current {
+background-color: #06c;
+color: #fff;
+}
+
+#areaTabs .current {
+ background-color:#598EDE;color: #fff;
+}

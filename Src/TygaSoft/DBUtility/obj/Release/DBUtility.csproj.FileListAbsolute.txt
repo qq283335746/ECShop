@@ -1,4 +1,0 @@
-D:\Visual Studio 2010 Workspace\天涯孤岸商城\TygaSoft\DBUtility\bin\Release\TygaSoft.DBUtility.dll
-D:\Visual Studio 2010 Workspace\天涯孤岸商城\TygaSoft\DBUtility\bin\Release\TygaSoft.DBUtility.pdb
-D:\Visual Studio 2010 Workspace\天涯孤岸商城\TygaSoft\DBUtility\obj\Release\TygaSoft.DBUtility.dll
-D:\Visual Studio 2010 Workspace\天涯孤岸商城\TygaSoft\DBUtility\obj\Release\TygaSoft.DBUtility.pdb

@@ -1,0 +1,12 @@
+﻿.pages {
+  color: #FFF; text-align:center;
+}
+.pages a, .pages .cpb {
+ text-decoration:none;float: left; padding: 0 5px; border: 1px solid #ddd;background: #FFF;margin:0 2px; font-size:11px;
+}
+.pages a:hover  {
+ background-color: #880000; color:#fff;border:1px solid #880000; text-decoration:none;
+}
+.pages .cpb{
+  font-weight: bold; color: #fff; background: #880000; border:1px solid #880000;
+}

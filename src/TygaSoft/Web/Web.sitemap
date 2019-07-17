@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Default.aspx" title="首页"  description="">
+
+      <siteMapNode url="~/Shares/ListDiamond.aspx" title="裸钻" description="" roles=""></siteMapNode>
+      <siteMapNode url="~/Shares/ListJadeite.aspx" title="翡翠" description="" roles=""></siteMapNode>
+
+      <siteMapNode url="" title="快捷导航" description="" roles="Administrators,Users">
+        <siteMapNode url="~/Admin/Default.aspx" title="我的桌面" description="" roles="Administrators"></siteMapNode>
+        <siteMapNode url="~/Users/Default.aspx" title="我的桌面" description="" roles="Users"></siteMapNode>
+      </siteMapNode>
+      
+      <siteMapNode url="" title="用户管理" description="" roles="Administrators">
+        <siteMapNode url="~/Admin/Members/ListUsers.aspx" title="用户列表" description="" roles="Administrators">
+          <siteMapNode url="~/Admin/Members/AddUser.aspx" title="新建/修改用户" description="hide" roles="Administrators"></siteMapNode>
+          <siteMapNode url="~/Admin/Members/AddUserRole.aspx" title="用户角色关系分配" description="hide" roles="Administrators"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="~/Admin/Members/ListRoles.aspx" title="角色列表" description="" roles="Administrators">
+          <siteMapNode url="~/Admin/Members/AddRole.aspx" title="新建/修改角色" description="hide" roles="Administrators"></siteMapNode>
+          <siteMapNode url="~/Admin/Members/AddRoleUser.aspx" title="角色用户关系分配" description="hide" roles="Administrators"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="~/Admin/Members/UpdatePsw.aspx" title="修改密码" description="" roles="Administrators"></siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="分类管理" description="" roles="Administrators">
+        <siteMapNode url="~/Admin/Category/ListCategory.aspx" title="分类列表" description="" roles="Administrators"></siteMapNode>
+        <siteMapNode url="~/Admin/Category/AddCategory.aspx" title="新建分类" description="" roles="Administrators"></siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="产品管理" description="" roles="Administrators">
+        <siteMapNode url="~/Admin/Product/ListProduct.aspx" title="产品列表" description="" roles="Administrators"></siteMapNode>
+        <siteMapNode url="~/Admin/Product/AddProduct.aspx" title="新建产品" description="" roles="Administrators"></siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="订单管理" description="" roles="Administrators">
+        <siteMapNode url="~/Admin/Order/ListOrder.aspx" title="订单列表" description="" roles="Administrators"></siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="系统管理" description="" roles="Administrators">
+        <siteMapNode url="~/Admin/UserProfile/ListProfile.aspx" title="用户配置文件" description="" roles="Administrators"></siteMapNode>
+        <siteMapNode url="~/Admin/SystemSet/ListSystemProfile.aspx" title="系统预设内容集" description="" roles="Administrators"></siteMapNode>
+        <siteMapNode url="~/Admin/SystemSet/AddSystemProfile.aspx" title="新建系统预设" description="" roles="Administrators"></siteMapNode>
+        <siteMapNode url="~/Admin/AboutSite/ListSearchKeyword.aspx" title="搜索关键字管理" description="" roles="Administrators"></siteMapNode>
+        <siteMapNode url="~/Admin/AboutSite/ListContentType.aspx" title="站点内容类型" description="" roles="Administrators">
+          <siteMapNode url="~/Admin/AboutSite/AddContentType.aspx" title="添加/修改内容类型" description="" roles="Administrators"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="~/Admin/AboutSite/ListContent.aspx" title="站点内容" description="" roles="Administrators">
+          <siteMapNode url="~/Admin/AboutSite/AddContent.aspx" title="添加/修改内容" description="" roles="Administrators"></siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="论坛管理" description="" roles="Administrators">
+        <siteMapNode url="~/Admin/BBS/ListContentType.aspx" title="论坛内容类型列表" description="" roles="Administrators">
+          <siteMapNode url="~/Admin/BBS/AddContentType.aspx" title="新建/编辑论坛内容类型" description="hide" roles="Administrators"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="~/Admin/BBS/ListContent.aspx" title="论坛内容列表" description="" roles="Administrators">
+          <siteMapNode url="~/Admin/BBS/AddContent.aspx" title="新建/编辑论坛内容" description="hide" roles="Administrators"></siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="" title="订单管理" description="" roles="Users">
+        <siteMapNode url="~/Users/Order/ListOrder.aspx" title="我的订单" description="" roles="Users">
+          <siteMapNode url="~/Users/Order/ShowOrder.aspx" title="订单详情" description="hide" roles="Users"></siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="" title="收货地址管理" description="" roles="Users">
+        <siteMapNode url="~/Users/ListAddress.aspx" title="收货地址" description="" roles="Users">
+          <siteMapNode url="~/Users/AddAddress.aspx" title="新建/编辑收货地址" description="hide" roles="Users"></siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+
+    </siteMapNode>
+</siteMap>
